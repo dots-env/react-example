@@ -1,7 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 
-console.warn('env react', process.env)
+console.warn('env', process.env)
 
 function App() {
   return (
@@ -9,7 +9,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          {process.env.REACT_APP_MY_ENV}
+          {process.env.MY_ENV}
         </p>
         <a
           className="App-link"

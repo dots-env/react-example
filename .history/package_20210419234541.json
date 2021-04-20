@@ -13,7 +13,7 @@
   },
   "scripts": {
     "start": "dots-env -c 'react-scripts start'",
-    "build": "dots-env -c 'react-scripts build'",
+    "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
@@ -36,6 +36,6 @@
     ]
   },
   "devDependencies": {
-    "dots-env": "../dots-env"
+    "dots-env": "^1.0.5-beta.0"
   }
 }

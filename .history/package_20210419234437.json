@@ -12,8 +12,8 @@
     "web-vitals": "^1.0.1"
   },
   "scripts": {
-    "start": "dots-env -c 'react-scripts start'",
-    "build": "dots-env -c 'react-scripts build'",
+    "start": "dots-env -c 'FORCE_COLOR=true npm start | cat'",
+    "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
