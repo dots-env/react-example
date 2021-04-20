@@ -36,6 +36,6 @@
     ]
   },
   "devDependencies": {
-    "dots-env": "../dots-env"
+    "dots-env": "^1.0.6"
   }
 }
